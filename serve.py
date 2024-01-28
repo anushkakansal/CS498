@@ -18,7 +18,7 @@ def handle_request():
 
 def start_cpu_stress():
     # Run "stress_cpu.py" in a separate process
-    subprocess.Popen(["python", "stress_cpu.py"])
+    subprocess.Popen(["python3", "stress_cpu.py"])
 
 def get_private_ip():
     # Get the private IP address of the EC2 instance
